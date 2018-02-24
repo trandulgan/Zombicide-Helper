@@ -19,4 +19,46 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.15" />
 
+    <EditText
+        android:id="@+id/login_userName"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Please_enter_name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.50" />
+
+    <EditText
+        android:id="@+id/login_userPW"
+        android:layout_width="350dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="@string/Please_enter_password"
+        android:inputType="textPassword"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_userName" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_clear"
+        app:layout_constraintTop_toBottomOf="@+id/login_userPW"
+        app:layout_constraintLeft_toLeftOf="@+id/login_userPW"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_enter"
+        app:layout_constraintTop_toBottomOf="@+id/login_userPW"
+        app:layout_constraintRight_toRightOf="@+id/login_userPW"
+         />
+
 </android.support.constraint.ConstraintLayout>

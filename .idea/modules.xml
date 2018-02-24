@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Zombicide-Helper.iml" filepath="$PROJECT_DIR$/Zombicide-Helper.iml" />
+      <module fileurl="file://C:\Android\Zombicide-Helper\Zombicide-Helper.iml" filepath="C:\Android\Zombicide-Helper\Zombicide-Helper.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Android\Zombicide-Helper\app\app.iml" filepath="C:\Android\Zombicide-Helper\app\app.iml" />
     </modules>
   </component>
 </project>

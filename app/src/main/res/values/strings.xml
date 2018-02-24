@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Zombicide Helper</string>
     <string name="start_header">Willkommen</string>
+    <string name="start_button">Betreten</string>
+    <string name="Please_enter_name">Bitte geben Sie Ihren Namen ein</string>
+    <string name="Please_enter_password">Bitte geben Sie Ihr Passwort ein</string>
+    <string name="button_clear">Löschen</string>
+    <string name="button_enter">Betreten</string>
 </resources>
